@@ -1,0 +1,73 @@
+.header {
+    background-color: #005DAF;
+    border-bottom: 1px solid #00458a;
+    color: #002d60;
+    width: 100%;
+    height: 70px;
+    font-family: Arial;
+    font-size: 60px;
+    font-weight: bold;
+    text-indent: 80px;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    -moz-transition: font-size 1s, color 1s;
+    -webkit-transition: font-size 1s, color 1s;
+    transition: font-size 1s, color 1s;
+}
+
+.header:hover {
+    color: #03070e;
+    font-size: 70px ;
+}
+
+.header_subtext{
+    background: transparent;
+    color: #002d60;
+    border: 0;
+    margin: 0;
+    padding: 2px;
+    z-index: 1;
+    font-family: Arial;
+    font-size: 15px;
+    text-align: center;
+    -moz-transition: font-size 1s, color 1s;
+    -webkit-transition: font-size 1s, color 1s;
+    transition: font-size 1s, color 1s;
+    box-shadow: 0px 0px 3px #001d3a;
+}
+#header_user_name{
+    position: fixed;
+    top: 40px;
+    right: 10px;
+}
+#header_user_ip{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+#header_logo{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 66px;
+    height: 66px;
+}
+
+.header_subtext:hover {
+    color: #03070e;
+}
+
+h2 {
+    position: relative;
+}
+
+h2 span {
+    background: rgba(0,93,175,0.1) url('png/pattern-zebra.png') repeat-x;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 70px;
+}

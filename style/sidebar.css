@@ -1,0 +1,62 @@
+.sidebar {
+    background: #005DAF url('png/pattern-sidebar.png') repeat;
+    background-size: 20px 20px;
+    /* #005daf */
+    position: fixed;
+    display: block;
+    color: #00123a;
+    top: 70px;
+    left: -6px;
+    width: 186px;
+    border: 1px solid #00458a;
+    border-bottom-right-radius: 8px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.sidebar_header {
+    height: 50px;
+    text-transform: uppercase;
+    text-indent: 2px;
+    font-size: 20px;
+    border-bottom: 1px solid #00458a;
+}
+
+.sidebar_category {
+    background: #00458a;
+    border-bottom: 1px solid #00458a;
+    padding: 0;
+    color: #00123a;
+}
+
+.sidebar_option {
+    background-color: #0057a4;
+    border-bottom: 1px solid #00458a;
+    padding: 0;
+    color: #00123a;
+    height: 30px;
+    -moz-transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+    transition: transform 0.5s;
+}
+
+.sidebar_option:hover {
+    background-color: #00123a;
+    color: #0057a4;
+    -moz-transform: translateX(5px);
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+}
+
+.sidebar_cell {
+    position: relative;
+}
+
+.sidebar_cell div {
+    vertical-align: baseline;
+}
+
+.sidebar_option.admin {
+    background: transparent url;
+}

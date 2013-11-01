@@ -4,6 +4,7 @@ $MyEmail = "lpretorius1995@gmail.com";
 $MyEmailLink = "<a href='mailto:". $MyEmail . "'>" . $MyEmail . "</a>";
 $MyName = "Louw";
 $MySiteName = $MyName."'s Workbench";
+$MySiteRootDirName = "web-workspace";
 
 function informUser($message)
 {

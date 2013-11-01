@@ -6,12 +6,16 @@
                 <div class="sidebar_option">visit index</div>
             </a>
 
+            <a href="/<?php echo $MySiteRootDirName ?>/gallery.php">
+                <div class="sidebar_option">gallery</div>
+            </a>
+
             <div class="sidebar_category">PHP && MySQL</div>
             <a href="/<?php echo $MySiteRootDirName ?>/view.php">
-            <div class="sidebar_option">view users</div>
+                <div class="sidebar_option">view users</div>
             </a>
             <a href="/<?php echo $MySiteRootDirName ?>/insert.php">
-            <div class="sidebar_option">insert a user</div>
+                <div class="sidebar_option">insert a user</div>
             </a>
             <?php if (getenv("username") == 'Louw') {
                 echo '

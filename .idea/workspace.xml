@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63af4879-43b7-457c-8ee5-f4f6493530b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/sidebar.inc" afterPath="$PROJECT_DIR$/include/sidebar.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/content.css" afterPath="$PROJECT_DIR$/style/content.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallery.php" afterPath="$PROJECT_DIR$/gallery.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="forum.iws" />
@@ -26,13 +27,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gallery.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="gallery.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gallery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="55" selection-start="374" selection-end="430" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="799">
+            <state line="22" column="102" selection-start="601" selection-end="601" vertical-scroll-proportion="0.37733644" vertical-offset="51" max-vertical-offset="969">
               <folding>
-                <element signature="e#770#794#0" expanded="true" />
-                <element signature="e#904#928#0" expanded="true" />
+                <element signature="e#980#1004#0" expanded="true" />
+                <element signature="e#1114#1138#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,16 +51,16 @@
       <file leaf-file-name="content.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/content.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="20" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="172" max-vertical-offset="1088">
+            <state line="32" column="20" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="header.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/header.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="20" selection-start="908" selection-end="908" vertical-scroll-proportion="0.44331065" vertical-offset="306" max-vertical-offset="1462">
+            <state line="53" column="14" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0" vertical-offset="274" max-vertical-offset="1462">
               <folding />
             </state>
           </provider>
@@ -106,9 +107,9 @@
         <option value="$PROJECT_DIR$/gallery_add.php" />
         <option value="$PROJECT_DIR$/style/common.css" />
         <option value="$PROJECT_DIR$/process.php" />
-        <option value="$PROJECT_DIR$/gallery.php" />
-        <option value="$PROJECT_DIR$/style/content.css" />
         <option value="$PROJECT_DIR$/style/header.css" />
+        <option value="$PROJECT_DIR$/style/content.css" />
+        <option value="$PROJECT_DIR$/gallery.php" />
       </list>
     </option>
   </component>
@@ -174,6 +175,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="style" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-workspace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -280,7 +295,15 @@
       <created>1383337665832</created>
       <updated>1383337665832</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added gallery link to sidebar.">
+      <created>1383337685727</created>
+      <updated>1383337685727</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added some stock images for gallery.">
+      <created>1383338057563</created>
+      <updated>1383338057563</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -320,7 +343,9 @@
     <MESSAGE value="Fixed hyperlink so they are no longer static" />
     <MESSAGE value="Added basic layout for the gallery." />
     <MESSAGE value="Modified log image and hover css styles for header." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified log image and hover css styles for header." />
+    <MESSAGE value="Added gallery link to sidebar." />
+    <MESSAGE value="Added some stock images for gallery." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some stock images for gallery." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -348,11 +373,6 @@
         <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="856" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="10" selection-start="813" selection-end="946" vertical-scroll-proportion="-16.884615" vertical-offset="105" max-vertical-offset="731" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/sidebar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="24" selection-start="574" selection-end="574" vertical-scroll-proportion="0.13578275" vertical-offset="357" max-vertical-offset="1139" />
@@ -362,7 +382,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="25" selection-start="401" selection-end="401" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="578">
           <folding>
-            <marker date="1383331168541" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1383337683807" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -402,16 +422,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gallery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="55" selection-start="374" selection-end="430" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="799">
-          <folding>
-            <element signature="e#770#794#0" expanded="true" />
-            <element signature="e#904#928#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/common.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="18" selection-start="200" selection-end="218" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="544">
@@ -419,17 +429,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/content.css">
+    <entry file="file://$PROJECT_DIR$/style/header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="20" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="172" max-vertical-offset="1071">
+        <state line="53" column="14" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.0" vertical-offset="274" max-vertical-offset="1462">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/header.css">
+    <entry file="file://$PROJECT_DIR$/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="20" selection-start="908" selection-end="908" vertical-scroll-proportion="0.44331065" vertical-offset="306" max-vertical-offset="1462">
+        <state line="18" column="20" selection-start="523" selection-end="523" vertical-scroll-proportion="0.35747662" vertical-offset="0" max-vertical-offset="856">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/content.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="20" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="102" selection-start="601" selection-end="601" vertical-scroll-proportion="0.37733644" vertical-offset="51" max-vertical-offset="969">
+          <folding>
+            <element signature="e#980#1004#0" expanded="true" />
+            <element signature="e#1114#1138#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -4,6 +4,13 @@ $title = ".gallery";
 include("include/header.inc");
 include("include/sidebar.inc");
 
+$image_list = array(
+    'img/ape.jpg',
+    'img/avatar.png',
+    'img/brains.jpg',
+    'img/shirt.jpg'
+);
+
 ?>
     <table class="content" cellpadding="0" cellspacing="0">
         <tr>
@@ -11,8 +18,11 @@ include("include/sidebar.inc");
         </tr>
         <tr>
             <td id="gallery">
-                <img src="img/avatar.png" alt="avatar">
-                <img src="img/avatar.png" alt="avatar">
+                <?php
+                foreach ($image_list as $image) {
+                    echo '<a href="' . $image . '"><img src="' . $image . '" alt="' . $image . '"></a>';
+                }
+                ?>
             </td>
         </tr>
         <tr>

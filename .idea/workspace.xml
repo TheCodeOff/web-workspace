@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63af4879-43b7-457c-8ee5-f4f6493530b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/header.inc" afterPath="$PROJECT_DIR$/include/header.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/sidebar.inc" afterPath="$PROJECT_DIR$/include/sidebar.inc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="forum.iws" />
@@ -50,9 +48,9 @@
       <file leaf-file-name="sidebar.inc" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/include/sidebar.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="950" selection-end="950" vertical-scroll-proportion="0.4567757" vertical-offset="0" max-vertical-offset="856">
+            <state line="8" column="35" selection-start="342" selection-end="342" vertical-scroll-proportion="0.1588785" vertical-offset="0" max-vertical-offset="856">
               <folding>
-                <marker date="1383310254110" expanded="true" signature="801:896" placeholder="..." />
+                <marker date="1383310290025" expanded="true" signature="794:889" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -253,7 +251,11 @@
       <created>1383308722728</created>
       <updated>1383308722728</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed hyperlink so they are no longer static">
+      <created>1383310293590</created>
+      <updated>1383310293590</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -290,7 +292,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Change to header linking" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change to header linking" />
+    <MESSAGE value="Fixed hyperlink so they are no longer static" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed hyperlink so they are no longer static" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -385,9 +388,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/sidebar.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="950" selection-end="950" vertical-scroll-proportion="0.4567757" vertical-offset="0" max-vertical-offset="856">
+        <state line="8" column="35" selection-start="342" selection-end="342" vertical-scroll-proportion="0.1588785" vertical-offset="0" max-vertical-offset="856">
           <folding>
-            <marker date="1383310254110" expanded="true" signature="801:896" placeholder="..." />
+            <marker date="1383310290025" expanded="true" signature="794:889" placeholder="..." />
           </folding>
         </state>
       </provider>

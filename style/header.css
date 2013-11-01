@@ -20,7 +20,7 @@
 
 .header:hover {
     color: #03070e;
-    font-size: 70px ;
+    font-size: 62px;
 }
 
 .header_subtext{
@@ -54,6 +54,14 @@
     left: 0px;
     width: 66px;
     height: 66px;
+    -moz-transition: box-shadow 1s, background-color 1s;
+    -webkit-transition: box-shadow 1s, background-color 1s;
+    transition: box-shadow 1s, background-color 1s;
+}
+
+#header_logo:hover {
+    background-color: #af1206;
+    box-shadow: 0px 0px 3px #4f0c04;
 }
 
 .header_subtext:hover {

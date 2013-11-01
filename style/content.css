@@ -1,5 +1,5 @@
 table.content {
-    background-color: rgba(197, 197, 197, 0.80);
+    background-color: rgba(197, 197, 197, 0.5);
     color: #182307;
     position: absolute;
     top: 70px;
@@ -9,7 +9,7 @@ table.content {
     border-left: 1px solid #c0c0c0;
     border-bottom-left-radius: 16px 8px;
     border-bottom-right-radius: 16px 8px;
-    width: 600px;
+    width: 700px;
     font-family: Arial;
     -moz-box-shadow: 6px 0px 9px #666666;
     -webkit-box-shadow: 6px 0px 9px #666666;
@@ -40,4 +40,20 @@ td.content_table_header {
 }
 .content td table {
     padding: 5px;
+}
+
+/* GALLERY */
+#gallery img {
+    background-color: #c0c0c0;
+    width: 150px;
+    height: 150px;
+    padding: 2px;
+    margin: 1px 10px 1px 2px;
+    border: 1px solid #c0c0c0;
+    box-shadow: 0px 0px 5px #666666;
+    transition: transform 1s;
+}
+
+#gallery img:hover {
+    transform: scale(1.1, 1.1);
 }

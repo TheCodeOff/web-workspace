@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63af4879-43b7-457c-8ee5-f4f6493530b1" name="Default" comment="" />
+    <list default="true" id="63af4879-43b7-457c-8ee5-f4f6493530b1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/header.inc" afterPath="$PROJECT_DIR$/include/header.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/sidebar.inc" afterPath="$PROJECT_DIR$/include/sidebar.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="forum.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,21 +27,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.inc" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="header.inc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/header.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.11915888" vertical-offset="0" max-vertical-offset="856">
+            <state line="18" column="32" selection-start="528" selection-end="528" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="663">
+              <folding>
+                <marker date="1383310088764" expanded="true" signature="591:613" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.inc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/common.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="18" selection-start="200" selection-end="218" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="544">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidebar.inc" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="sidebar.inc" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/include/sidebar.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="53" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="459">
+            <state line="23" column="0" selection-start="950" selection-end="950" vertical-scroll-proportion="0.4567757" vertical-offset="0" max-vertical-offset="856">
               <folding>
-                <marker date="1383228051519" expanded="true" signature="681:776" placeholder="..." />
+                <marker date="1383310254110" expanded="true" signature="801:896" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -59,6 +74,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitLogSettings">
     <option name="myDateState">
       <MyDateState />
@@ -77,12 +95,12 @@
         <option value="$PROJECT_DIR$/style/common.css" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/username.php" />
-        <option value="$PROJECT_DIR$/include/common.inc" />
         <option value="$PROJECT_DIR$/style/sidebar.css" />
         <option value="$PROJECT_DIR$/style/content.css" />
-        <option value="$PROJECT_DIR$/include/sidebar.inc" />
         <option value="$PROJECT_DIR$/style/header.css" />
+        <option value="$PROJECT_DIR$/include/common.inc" />
         <option value="$PROJECT_DIR$/include/header.inc" />
+        <option value="$PROJECT_DIR$/include/sidebar.inc" />
       </list>
     </option>
   </component>
@@ -134,7 +152,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="forum" />
+              <option name="myItemId" value="web-workspace" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -144,21 +162,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="forum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forum" />
+              <option name="myItemId" value="web-workspace" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -177,8 +181,8 @@
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/libexec/git-core/git.exe" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -245,19 +249,25 @@
       <created>1383059786168</created>
       <updated>1383059786168</updated>
     </task>
+    <task id="LOCAL-00001" summary="Change to header linking">
+      <created>1383308722728</created>
+      <updated>1383308722728</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1040" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29295155" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11796875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1296875" sideWeight="0.67070484" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11796875" sideWeight="0.7070485" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1296875" sideWeight="0.7070485" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -279,6 +289,10 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Change to header linking" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change to header linking" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -326,11 +340,6 @@
         <state line="19" column="30" selection-start="387" selection-end="387" vertical-scroll-proportion="0.36621314" vertical-offset="0" max-vertical-offset="882" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/common.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="38" selection-start="71" selection-end="71" vertical-scroll-proportion="0.039719626" vertical-offset="0" max-vertical-offset="856" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="663" />
@@ -351,15 +360,6 @@
         <state line="26" column="24" selection-start="574" selection-end="574" vertical-scroll-proportion="0.13578275" vertical-offset="357" max-vertical-offset="1139" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/sidebar.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="53" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="459">
-          <folding>
-            <marker date="1383228051519" expanded="true" signature="681:776" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="10" selection-start="920" selection-end="920" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1326">
@@ -369,8 +369,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/header.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.11915888" vertical-offset="0" max-vertical-offset="856">
+        <state line="18" column="32" selection-start="528" selection-end="528" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="663">
+          <folding>
+            <marker date="1383310088764" expanded="true" signature="591:613" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/common.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="200" selection-end="218" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="544">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/sidebar.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="950" selection-end="950" vertical-scroll-proportion="0.4567757" vertical-offset="0" max-vertical-offset="856">
+          <folding>
+            <marker date="1383310254110" expanded="true" signature="801:896" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

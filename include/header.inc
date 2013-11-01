@@ -5,18 +5,18 @@
         <?php echo "$MySiteName - $title"; ?>
     </title>
 
-    <link rel="shortcut icon" href="/img/favicon.ico"/>
-    <link rel="stylesheet" href="/style/common.css"/>
-    <link rel="stylesheet" href="/style/content.css"/>
-    <link rel="stylesheet" href="/style/header.css"/>
-    <link rel="stylesheet" href="/style/sidebar.css"/>
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <link rel="stylesheet" href="style/common.css"/>
+    <link rel="stylesheet" href="style/content.css"/>
+    <link rel="stylesheet" href="style/header.css"/>
+    <link rel="stylesheet" href="style/sidebar.css"/>
 </head>
 <body>
 <h2 class='header'>
     <span></span><?php echo $title ?>
 </h2>
 <a href="/<?php echo $MySiteRootDirName ?>/">
-    <img class="header_subtext" id="header_logo" src="/style/png/logo.png" alt="logo">
+    <img class="header_subtext" id="header_logo" src="style/png/logo.png" alt="logo">
 </a>
 <!-- NOT WORKING
 <span class="header_subtext" id="header_user_name">

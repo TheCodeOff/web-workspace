@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63af4879-43b7-457c-8ee5-f4f6493530b1" name="Default" comment="Fixed the table styles.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+    <list default="true" id="63af4879-43b7-457c-8ee5-f4f6493530b1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/common.css" afterPath="$PROJECT_DIR$/style/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/content.css" afterPath="$PROJECT_DIR$/style/content.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallery.php" afterPath="$PROJECT_DIR$/gallery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/sidebar.inc" afterPath="$PROJECT_DIR$/include/sidebar.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/header.css" afterPath="$PROJECT_DIR$/style/header.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/sidebar.css" afterPath="$PROJECT_DIR$/style/sidebar.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="forum.iws" />
@@ -88,7 +85,7 @@
       <file leaf-file-name="content.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/content.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="0" selection-start="1588" selection-end="1588" vertical-scroll-proportion="1.4689655" vertical-offset="772" max-vertical-offset="1564">
+            <state line="21" column="17" selection-start="557" selection-end="557" vertical-scroll-proportion="-0.46896553" vertical-offset="561" max-vertical-offset="1564">
               <folding />
             </state>
           </provider>
@@ -97,7 +94,16 @@
       <file leaf-file-name="common.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="4" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" vertical-offset="297" max-vertical-offset="901">
+            <state line="27" column="1" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="884">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/sidebar.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="29" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
               <folding />
             </state>
           </provider>
@@ -106,7 +112,7 @@
       <file leaf-file-name="header.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/header.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="20" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1462">
+            <state line="63" column="19" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1462">
               <folding />
             </state>
           </provider>
@@ -136,18 +142,18 @@
         <option value="$PROJECT_DIR$/view.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/username.php" />
-        <option value="$PROJECT_DIR$/style/sidebar.css" />
         <option value="$PROJECT_DIR$/include/header.inc" />
         <option value="$PROJECT_DIR$/gallery_add.php" />
         <option value="$PROJECT_DIR$/process.php" />
-        <option value="$PROJECT_DIR$/style/header.css" />
         <option value="$PROJECT_DIR$/delete.php" />
         <option value="$PROJECT_DIR$/insert.php" />
         <option value="$PROJECT_DIR$/include/common.inc" />
         <option value="$PROJECT_DIR$/gallery.php" />
         <option value="$PROJECT_DIR$/include/sidebar.inc" />
-        <option value="$PROJECT_DIR$/style/common.css" />
         <option value="$PROJECT_DIR$/style/content.css" />
+        <option value="$PROJECT_DIR$/style/common.css" />
+        <option value="$PROJECT_DIR$/style/sidebar.css" />
+        <option value="$PROJECT_DIR$/style/header.css" />
       </list>
     </option>
   </component>
@@ -403,14 +409,22 @@
       <created>1383386629149</created>
       <updated>1383386629149</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fixed the table styles.">
+      <created>1383387818690</created>
+      <updated>1383387818690</updated>
+    </task>
+    <task id="LOCAL-00014" summary="CSS Maintainance">
+      <created>1383387873795</created>
+      <updated>1383387873795</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1032" y="-8" width="1040" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2929448" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2929448" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299435" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -450,7 +464,8 @@
     <MESSAGE value="Change website name to more fitting one. Removed personal vars from commons." />
     <MESSAGE value="Gallery now functional. Uses a directory to fetch images instead of database." />
     <MESSAGE value="Fixed the table styles." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed the table styles." />
+    <MESSAGE value="CSS Maintainance" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS Maintainance" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -520,13 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/sidebar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="1" selection-start="650" selection-end="650" vertical-scroll-proportion="0.8146965" vertical-offset="0" max-vertical-offset="1139">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gallery.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="12" selection-start="1462" selection-end="1462" vertical-scroll-proportion="-12.423077" vertical-offset="459" max-vertical-offset="1768">
@@ -572,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="20" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/sidebar.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="12" selection-start="612" selection-end="612" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="612">
@@ -588,14 +589,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="4" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" vertical-offset="297" max-vertical-offset="901">
+        <state line="27" column="1" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="884">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/sidebar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="29" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="19" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1462">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/content.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="0" selection-start="1588" selection-end="1588" vertical-scroll-proportion="1.4689655" vertical-offset="772" max-vertical-offset="1564">
+        <state line="21" column="17" selection-start="557" selection-end="557" vertical-scroll-proportion="-0.46896553" vertical-offset="561" max-vertical-offset="1564">
           <folding />
         </state>
       </provider>

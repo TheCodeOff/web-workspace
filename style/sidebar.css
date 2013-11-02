@@ -12,7 +12,7 @@
     border-bottom-right-radius: 8px;
     padding-bottom: 20px;
     text-align: center;
-    font-family: Arial;
+    font-family: Arial, serif;
 }
 
 .sidebar_header {
@@ -55,8 +55,4 @@
 
 .sidebar_cell div {
     vertical-align: baseline;
-}
-
-.sidebar_option.admin {
-    background: transparent url;
 }

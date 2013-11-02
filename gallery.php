@@ -23,9 +23,8 @@ $indexCount = count($image_list);
 sort($image_list);
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $target_path = "img/";
-    $target_path = $target_path . basename($_FILES['image']['name']);
-    $target_ext = pathinfo($entryName, PATHINFO_EXTENSION);
+    $target_path = $imgdir . "/" . basename($_FILES['image']['name']);
+    $target_ext = pathinfo($_FILES['image']['name'], PATHINFO_EXTENSION);
     if (!isset($_FILES['image']) || $_FILES['image']['name'] == '') {
         informUser("Please specify a image!");
     } else if ($target_ext != 'jpg' && $target_ext != 'png' && $target_ext != 'gif') {
@@ -44,13 +43,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 
 ?>
-    <table class="content" cellpadding="0" cellspacing="0">
+    <table class="content">
         <tr>
             <td class="content_header" colspan="3">
                 Gallery
                 <?php if (isset($_GET['imageid'])) {
-                    echo '<a href="gallery.php">Back to Gallery</a>';
-                }?>
+                    echo '<a href="gallery.php"><span>Back to Gallery</span></a>';
+                } else {
+                    echo "<span>$indexCount images</span>";
+                }
+                ?>
             </td>
         </tr>
         <tr>

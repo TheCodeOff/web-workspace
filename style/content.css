@@ -5,15 +5,15 @@ table.content {
     top: 70px;
     left: 210px;
     margin: 0;
-    padding: 0px 0px 10px 0px;
+    padding: 0 0 10px 0;
     border-left: 1px solid #c0c0c0;
     border-bottom-left-radius: 16px 8px;
     border-bottom-right-radius: 16px 8px;
     width: 700px;
-    font-family: Arial;
-    -moz-box-shadow: 6px 0px 9px #666666;
-    -webkit-box-shadow: 6px 0px 9px #666666;
-    box-shadow: 6px 0px 9px #666666;
+    font-family: Arial, serif;
+    -moz-box-shadow: 6px 0 9px #666666;
+    -webkit-box-shadow: 6px 0 9px #666666;
+    box-shadow: 6px 0 9px #666666;
 }
 
 td.content_header {
@@ -21,21 +21,21 @@ td.content_header {
     color: #d6d6d6;
     height: 45px;
     border-top: 0;
-    font-family: Arial;
+    font-family: Arial, serif;
     text-align: left;
     text-indent: 10px;
     font-size: 28px;
 }
 
-.content_header a {
+.content_header span {
     margin: -1px;
     top: 30px;
     right: 30px;
     position: absolute;
     font-size: 18px;
-    font-family: Comic Sans MS;
+    font-family: Comic Sans MS, serif;
     color: rgb(214, 214, 214);
-    box-shadow: 0px 0px 3px #515151;
+    box-shadow: 0 0 3px #515151;
     text-align: center;
     padding-right: 10px;
     padding-bottom: 3px;
@@ -73,12 +73,12 @@ td.content_table_header {
 
 #gallery img {
     background-color: #c0c0c0;
-    width: 150px;
+    /*width: 150px;*/
     height: 150px;
     padding: 2px;
     margin: 6px;
     border: 1px solid #c0c0c0;
-    box-shadow: 0px 0px 5px #666666;
+    box-shadow: 0 0 5px #666666;
     transition: transform 1s;
 }
 

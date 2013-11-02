@@ -1,10 +1,12 @@
-<table class="sidebar" cellpadding="0" cellspacing="0">
+<table class="sidebar">
     <tr>
         <td class="sidebar_cell">
             <div class="sidebar_header">What do you want to do?</div>
             <a href="/<?php echo $MySiteRootDirName ?>/">
                 <div class="sidebar_option">visit index</div>
             </a>
+
+            <div class="sidebar_category">PHP</div>
 
             <a href="/<?php echo $MySiteRootDirName ?>/gallery.php">
                 <div class="sidebar_option">gallery</div>

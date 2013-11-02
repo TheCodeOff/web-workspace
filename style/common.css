@@ -3,6 +3,11 @@ body {
     background: #d6d6d6 url('png/body-overlay.png') repeat-y center top;
 }
 
+table {
+    padding: 0px;
+    border-spacing: 0px;
+}
+
 a {
     text-decoration: none;
 }
@@ -15,11 +20,11 @@ a {
     margin: 10px;
     /* BORDERS */
     border: 2px solid #748c08;
-    border-top: 0px;
+    border-top: 0;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px;
     padding: 10px;
 }
 

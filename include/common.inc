@@ -1,6 +1,5 @@
 <?php
 // some site-wide defaults
-$MyEmailLink = "<a href='mailto:". $MyEmail . "'>" . $MyEmail . "</a>";
 $MySiteName = "Web Workspace";
 $MySiteRootDirName = "web-workspace";
 
@@ -21,4 +20,5 @@ function parsePostData($data)
     $data = htmlspecialchars($data);
     return $data;
 }
+
 ?>

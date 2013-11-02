@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63af4879-43b7-457c-8ee5-f4f6493530b1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="forum.iws" />
@@ -25,13 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gallery.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="gallery.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gallery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="24" selection-start="3303" selection-end="3303" vertical-scroll-proportion="0.7103918" vertical-offset="1096" max-vertical-offset="1802">
+            <state line="71" column="18" selection-start="2578" selection-end="2578" vertical-scroll-proportion="-10.038462" vertical-offset="946" max-vertical-offset="1802">
               <folding>
-                <element signature="e#2971#2995#0" expanded="true" />
-                <element signature="e#3105#3129#0" expanded="true" />
                 <marker date="1383388221634" expanded="true" signature="1448:1576" placeholder="..." />
                 <marker date="1383388221634" expanded="true" signature="1461:1576" placeholder="..." />
                 <marker date="1383388221634" expanded="true" signature="1461:1484" placeholder="..." />
@@ -40,13 +39,18 @@
                 <marker date="1383388221634" expanded="true" signature="1840:1860" placeholder="..." />
                 <marker date="1383388221634" expanded="true" signature="1870:1925" placeholder="..." />
                 <marker date="1383388221634" expanded="true" signature="2675:2698" placeholder="..." />
-                <marker date="1383388221634" expanded="true" signature="2774:3497" placeholder="..." />
                 <marker date="1383388221634" expanded="true" signature="2774:2821" placeholder="..." />
-                <marker date="1383388221634" expanded="true" signature="2774:2821" placeholder="..." />
-                <marker date="1383388221634" expanded="true" signature="2791:3483" placeholder="..." />
-                <marker date="1383388221634" expanded="true" signature="2791:2821" placeholder="..." />
                 <marker date="1383388221634" expanded="true" signature="2791:2821" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="3" selection-start="428" selection-end="428" vertical-scroll-proportion="0.4047619" vertical-offset="0" max-vertical-offset="882">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,7 +58,7 @@
       <file leaf-file-name="sidebar.inc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/sidebar.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="12" selection-start="612" selection-end="612" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="612">
+            <state line="16" column="12" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
@@ -63,7 +67,7 @@
       <file leaf-file-name="delete.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/delete.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="12" selection-start="1222" selection-end="1582" vertical-scroll-proportion="-12.5" vertical-offset="355" max-vertical-offset="1581">
+            <state line="40" column="12" selection-start="1222" selection-end="1582" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1581">
               <folding>
                 <marker date="1383338629652" expanded="true" signature="1662:2825" placeholder="..." />
                 <marker date="1383338629652" expanded="true" signature="1675:1757" placeholder="..." />
@@ -82,7 +86,7 @@
       <file leaf-file-name="content.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/content.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="19" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1564">
+            <state line="20" column="19" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="1564">
               <folding />
             </state>
           </provider>
@@ -100,7 +104,7 @@
       <file leaf-file-name="sidebar.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/sidebar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="29" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
+            <state line="14" column="29" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1071">
               <folding />
             </state>
           </provider>
@@ -140,7 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/style/content.html" />
         <option value="$PROJECT_DIR$/view.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/username.php" />
@@ -156,15 +159,16 @@
         <option value="$PROJECT_DIR$/style/sidebar.css" />
         <option value="$PROJECT_DIR$/style/header.css" />
         <option value="$PROJECT_DIR$/gallery.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1032" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1040" />
-    <option name="height" value="784" />
+    <option name="width" value="1296" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -211,6 +215,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -231,16 +245,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,8 +254,8 @@
     <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/libexec/git-core/git.exe" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -389,14 +393,17 @@
       <created>1383388367576</created>
       <updated>1383388367576</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Removed unnecessary audio directory.">
+      <created>1383388380689</created>
+      <updated>1383388380689</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1032" y="-8" width="1040" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1040" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2929448" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299435" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -413,6 +420,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2929448" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -447,11 +455,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/mysqli.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2076" column="9" selection-start="66584" selection-end="66584" vertical-scroll-proportion="0.34282324" vertical-offset="34952" max-vertical-offset="54893" />
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="630" column="7" selection-start="21257" selection-end="21257" vertical-scroll-proportion="0.50233644" vertical-offset="10280" max-vertical-offset="18496" />
@@ -464,37 +467,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/insert.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="190" selection-end="234" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1632">
-          <folding>
-            <marker date="1383338636252" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1383338636252" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1383338636252" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1383338636252" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1383338636252" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1383338636252" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1383338636252" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1383338636252" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="8" column="0" selection-start="190" selection-end="234" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1632" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="9" selection-start="713" selection-end="713" vertical-scroll-proportion="0.8170056" vertical-offset="0" max-vertical-offset="663">
-          <folding />
-        </state>
+        <state line="26" column="9" selection-start="713" selection-end="713" vertical-scroll-proportion="0.8170056" vertical-offset="0" max-vertical-offset="663" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="19" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.9371534" vertical-offset="88" max-vertical-offset="731">
-          <folding />
-        </state>
+        <state line="35" column="19" selection-start="1064" selection-end="1064" vertical-scroll-proportion="0.9371534" vertical-offset="88" max-vertical-offset="731" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/delete.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="12" selection-start="1222" selection-end="1582" vertical-scroll-proportion="-12.5" vertical-offset="355" max-vertical-offset="1581">
+        <state line="40" column="12" selection-start="1222" selection-end="1582" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1581">
           <folding>
             <marker date="1383338629652" expanded="true" signature="1662:2825" placeholder="..." />
             <marker date="1383338629652" expanded="true" signature="1675:1757" placeholder="..." />
@@ -511,16 +499,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/header.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="378" selection-end="378" vertical-scroll-proportion="0.3523316" vertical-offset="0" max-vertical-offset="663">
-          <folding />
-        </state>
+        <state line="12" column="7" selection-start="378" selection-end="378" vertical-scroll-proportion="0.3523316" vertical-offset="0" max-vertical-offset="663" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/footer.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="170">
-          <folding />
-        </state>
+        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/common.inc">
@@ -532,7 +516,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/sidebar.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="12" selection-start="612" selection-end="612" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="612">
+        <state line="16" column="12" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
@@ -567,10 +551,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gallery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="24" selection-start="3303" selection-end="3303" vertical-scroll-proportion="0.7103918" vertical-offset="1096" max-vertical-offset="1802">
+        <state line="71" column="18" selection-start="2578" selection-end="2578" vertical-scroll-proportion="-10.038462" vertical-offset="946" max-vertical-offset="1802">
           <folding>
-            <element signature="e#2971#2995#0" expanded="true" />
-            <element signature="e#3105#3129#0" expanded="true" />
             <marker date="1383388221634" expanded="true" signature="1448:1576" placeholder="..." />
             <marker date="1383388221634" expanded="true" signature="1461:1576" placeholder="..." />
             <marker date="1383388221634" expanded="true" signature="1461:1484" placeholder="..." />
@@ -579,13 +561,16 @@
             <marker date="1383388221634" expanded="true" signature="1840:1860" placeholder="..." />
             <marker date="1383388221634" expanded="true" signature="1870:1925" placeholder="..." />
             <marker date="1383388221634" expanded="true" signature="2675:2698" placeholder="..." />
-            <marker date="1383388221634" expanded="true" signature="2774:3497" placeholder="..." />
             <marker date="1383388221634" expanded="true" signature="2774:2821" placeholder="..." />
-            <marker date="1383388221634" expanded="true" signature="2774:2821" placeholder="..." />
-            <marker date="1383388221634" expanded="true" signature="2791:3483" placeholder="..." />
-            <marker date="1383388221634" expanded="true" signature="2791:2821" placeholder="..." />
             <marker date="1383388221634" expanded="true" signature="2791:2821" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="3" selection-start="428" selection-end="428" vertical-scroll-proportion="0.4047619" vertical-offset="0" max-vertical-offset="882">
+          <folding />
         </state>
       </provider>
     </entry>

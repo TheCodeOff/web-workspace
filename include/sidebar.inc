@@ -2,28 +2,36 @@
     <tr>
         <td class="sidebar_cell">
             <div class="sidebar_header">What do you want to do?</div>
+            <!-- GENERAL LINKS -->
             <a href="/<?php echo $MySiteRootDirName ?>/">
                 <div class="sidebar_option">visit index</div>
             </a>
 
+            <!-- PHP LINKS -->
             <div class="sidebar_category">PHP</div>
-
             <a href="/<?php echo $MySiteRootDirName ?>/gallery.php">
                 <div class="sidebar_option">gallery</div>
             </a>
 
-            <div class="sidebar_category">PHP && MySQL</div>
+            <!-- MySQL LINKS -->
+            <div class="sidebar_category">MySQL</div>
             <a href="/<?php echo $MySiteRootDirName ?>/view.php">
                 <div class="sidebar_option">view users</div>
             </a>
             <a href="/<?php echo $MySiteRootDirName ?>/insert.php">
                 <div class="sidebar_option">insert a user</div>
             </a>
-            <?php if (getenv("username") == 'Louw') {
+            <a href="/<?php echo $MySiteRootDirName ?>/delete.php">
+                <div class="sidebar_option">delete a user</div>
+            </a>
+            <!-- ADMIN LINKS -->
+            <?php if (getenv("REMOTE_ADDR") == '::1') {
                 echo '
-                <a href="/' . $MySiteRootDirName . '/delete.php">
-                    <div class="sidebar_option admin">delete a user</div>
-                </a>';
+                    <div class="sidebar_category">Admin</div>
+                    <a href="../phpmyadmin/">
+                        <div class="sidebar_option">MySQL Setup</div>
+                    </a>
+                    ';
             } ?>
         </td>
     </tr>

@@ -63,7 +63,6 @@ td.content_table_header {
 }
 
 #gallery img.standalone {
-    width: 600px;
     height: auto;
 }
 
@@ -84,4 +83,9 @@ td.content_table_header {
 
 #gallery img:hover {
     transform: scale(1.1, 1.1);
+}
+
+#gallery_form {
+    position: relative;
+    text-align: center;
 }

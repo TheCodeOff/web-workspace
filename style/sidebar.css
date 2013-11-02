@@ -15,6 +15,10 @@
     font-family: Arial, serif;
 }
 
+.sidebar a {
+    target-new: tab ! important;
+}
+
 .sidebar_header {
     height: 50px;
     text-transform: uppercase;

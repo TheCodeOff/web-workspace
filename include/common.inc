@@ -29,4 +29,25 @@ function parsePostData($data)
     return $data;
 }
 
+function getPreferredImageDimensions($image_uri, $preferredWidth, $preferredHeight = 10000)
+{
+    $width = getimagesize($image_uri)[0];
+    $height = getimagesize($image_uri)[1];
+    $new_width = $width;
+    $new_height = $height;
+    if ($width > $height) { // use width for dimensioning.
+        if ($width > $preferredWidth) {
+            $new_width = $preferredWidth;
+        }
+        $new_height = $height * ($new_width / $width);
+    } else { // use height for dimensioning.
+        if ($height > $preferredHeight) {
+            $new_height = $preferredHeight;
+        }
+        $new_width = $width * ($new_height / $height);
+    }
+
+    return array($new_width, $new_height);
+}
+
 ?>

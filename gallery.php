@@ -12,7 +12,6 @@ while ($entryName = readdir($myDirectory)) {
     $ext = pathinfo($entryName, PATHINFO_EXTENSION);
     if ($ext == 'jpg' || $ext == 'png' || $ext == 'gif') {
         $image_list[] = $entryName;
-        echo $entryName;
     }
 }
 // close directory
@@ -60,7 +59,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <?php
                 if (isset($_GET['imageid']) && $_GET['imageid'] < count($image_list)) {
                     $image_entry = $imgdir . "/" . $image_list[$_GET['imageid']];
-                    echo '<img class="standalone" src="' . $image_entry . '" alt="' . $image_entry . '">';
+                    $image_dimensions = getPreferredImageDimensions($image_entry, 800, 800);
+                    echo '
+                    <img class="standalone"
+                    src="' . $image_entry . '"
+                    alt="' . $image_entry . '>"
+                    width="' . $image_dimensions[0] . '"
+                    height="' . $image_dimensions[1] . '"><br />
+                    <span>Width: ' . getimagesize($image_entry)[0] . ' px</span><br />
+                    <span>Height: ' . getimagesize($image_entry)[1] . ' px</span><br />
+                    <span>Type: ' . getimagesize($image_entry)['mime'] . '</span>';
                 } else {
                     $index = 0;
                     foreach ($image_list as $image) {
@@ -74,26 +82,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </tr>
         <?php if (!isset($_GET['imageid'])) { ?>
             <tr>
-            <td class="content_header" colspan="3">Upload an image</td>
-        </tr>
-        <tr>
-            <td>
-                <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>"
-                      enctype="multipart/form-data">
-                    <span style="font-size: 18px;">Please enter all of the following information:</span>
-
-                    <p>
-                        <span style="font-size: 16px;">
-                            Specify image: <br/>
-                            <input type="file" name="image"/><br/>
-                        </span>
-                    </p>
-
-                    <input type="reset" name="reset" value="Reset Form"/>
-                    <input type="submit" value="Upload Image"/>
-                </form>
-            </td>
-        </tr>
+                <td class="content_header" colspan="3">Upload an image</td>
+            </tr>
+            <tr>
+                <td>
+                    <form method="post" id="gallery_form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>"
+                          enctype="multipart/form-data">
+                        <input type="file" name="image"/>
+                        <input type="reset" name="reset" value="Reset"/>
+                        <input type="submit" value="Upload"/>
+                    </form>
+                </td>
+            </tr>
         <?php } ?>
     </table>
 

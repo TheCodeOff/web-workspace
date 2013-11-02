@@ -72,7 +72,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 ?>
             </td>
         </tr>
-        <tr>
+        <?php if (!isset($_GET['imageid'])) { ?>
+            <tr>
             <td class="content_header" colspan="3">Upload an image</td>
         </tr>
         <tr>
@@ -93,6 +94,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </form>
             </td>
         </tr>
+        <?php } ?>
     </table>
 
 

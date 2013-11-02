@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63af4879-43b7-457c-8ee5-f4f6493530b1" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\xampp\htdocs\web-workspace\audio\ambient.mp3" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\web-workspace\audio\ambient2.mp3" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\web-workspace\audio\rain.wav" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="forum.iws" />
@@ -31,7 +28,7 @@
       <file leaf-file-name="gallery.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gallery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="31" selection-start="3278" selection-end="3278" vertical-scroll-proportion="0.681431" vertical-offset="1096" max-vertical-offset="1802">
+            <state line="89" column="24" selection-start="3303" selection-end="3303" vertical-scroll-proportion="0.7103918" vertical-offset="1096" max-vertical-offset="1802">
               <folding>
                 <element signature="e#2971#2995#0" expanded="true" />
                 <element signature="e#3105#3129#0" expanded="true" />
@@ -388,12 +385,16 @@
       <created>1383388222303</created>
       <updated>1383388222303</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Removed unnecessary audio directory.">
+      <created>1383388367576</created>
+      <updated>1383388367576</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1032" y="-8" width="1040" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2929448" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -402,7 +403,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11796875" sideWeight="0.67070484" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16015625" sideWeight="0.7070552" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16015625" sideWeight="0.7070552" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -437,7 +438,8 @@
     <MESSAGE value="Fixed the table styles." />
     <MESSAGE value="CSS Maintainance" />
     <MESSAGE value="Upload an image now hidden when viewing a single image." />
-    <option name="LAST_COMMIT_MESSAGE" value="Upload an image now hidden when viewing a single image." />
+    <MESSAGE value="Removed unnecessary audio directory." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unnecessary audio directory." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -565,7 +567,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gallery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="31" selection-start="3278" selection-end="3278" vertical-scroll-proportion="0.681431" vertical-offset="1096" max-vertical-offset="1802">
+        <state line="89" column="24" selection-start="3303" selection-end="3303" vertical-scroll-proportion="0.7103918" vertical-offset="1096" max-vertical-offset="1802">
           <folding>
             <element signature="e#2971#2995#0" expanded="true" />
             <element signature="e#3105#3129#0" expanded="true" />

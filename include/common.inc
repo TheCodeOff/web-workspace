@@ -1,9 +1,7 @@
 <?php
 // some site-wide defaults
-$MyEmail = "lpretorius1995@gmail.com";
 $MyEmailLink = "<a href='mailto:". $MyEmail . "'>" . $MyEmail . "</a>";
-$MyName = "Louw";
-$MySiteName = $MyName."'s Workbench";
+$MySiteName = "Web Workspace";
 $MySiteRootDirName = "web-workspace";
 
 function informUser($message)

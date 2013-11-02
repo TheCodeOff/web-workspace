@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63af4879-43b7-457c-8ee5-f4f6493530b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gallery.php" afterPath="$PROJECT_DIR$/gallery.php" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\web-workspace\audio\ambient.mp3" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\web-workspace\audio\ambient2.mp3" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\web-workspace\audio\rain.wav" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="forum.iws" />
@@ -29,24 +31,24 @@
       <file leaf-file-name="gallery.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gallery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="12" selection-start="3520" selection-end="3520" vertical-scroll-proportion="0.94207835" vertical-offset="1096" max-vertical-offset="1802">
+            <state line="88" column="31" selection-start="3278" selection-end="3278" vertical-scroll-proportion="0.681431" vertical-offset="1096" max-vertical-offset="1802">
               <folding>
-                <element signature="e#2966#2990#0" expanded="true" />
-                <element signature="e#3100#3124#0" expanded="true" />
-                <marker date="1383388143787" expanded="true" signature="1448:1576" placeholder="..." />
-                <marker date="1383388143787" expanded="true" signature="1461:1576" placeholder="..." />
-                <marker date="1383388143787" expanded="true" signature="1461:1484" placeholder="..." />
-                <marker date="1383388143787" expanded="true" signature="1513:1576" placeholder="..." />
-                <marker date="1383388143787" expanded="true" signature="1840:1925" placeholder="..." />
-                <marker date="1383388143787" expanded="true" signature="1840:1860" placeholder="..." />
-                <marker date="1383388143787" expanded="true" signature="1870:1925" placeholder="..." />
-                <marker date="1383388143787" expanded="true" signature="2670:2693" placeholder="..." />
-                <marker date="1383388143787" expanded="true" signature="2769:3492" placeholder="..." />
-                <marker date="1383388143787" expanded="true" signature="2769:2816" placeholder="..." />
-                <marker date="1383388143787" expanded="true" signature="2769:2816" placeholder="..." />
-                <marker date="1383388143787" expanded="true" signature="2786:3478" placeholder="..." />
-                <marker date="1383388143787" expanded="true" signature="2786:2816" placeholder="..." />
-                <marker date="1383388143787" expanded="true" signature="2786:2816" placeholder="..." />
+                <element signature="e#2971#2995#0" expanded="true" />
+                <element signature="e#3105#3129#0" expanded="true" />
+                <marker date="1383388221634" expanded="true" signature="1448:1576" placeholder="..." />
+                <marker date="1383388221634" expanded="true" signature="1461:1576" placeholder="..." />
+                <marker date="1383388221634" expanded="true" signature="1461:1484" placeholder="..." />
+                <marker date="1383388221634" expanded="true" signature="1513:1576" placeholder="..." />
+                <marker date="1383388221634" expanded="true" signature="1840:1925" placeholder="..." />
+                <marker date="1383388221634" expanded="true" signature="1840:1860" placeholder="..." />
+                <marker date="1383388221634" expanded="true" signature="1870:1925" placeholder="..." />
+                <marker date="1383388221634" expanded="true" signature="2675:2698" placeholder="..." />
+                <marker date="1383388221634" expanded="true" signature="2774:3497" placeholder="..." />
+                <marker date="1383388221634" expanded="true" signature="2774:2821" placeholder="..." />
+                <marker date="1383388221634" expanded="true" signature="2774:2821" placeholder="..." />
+                <marker date="1383388221634" expanded="true" signature="2791:3483" placeholder="..." />
+                <marker date="1383388221634" expanded="true" signature="2791:2821" placeholder="..." />
+                <marker date="1383388221634" expanded="true" signature="2791:2821" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -230,48 +232,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-workspace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="style" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-workspace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-workspace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -424,12 +384,16 @@
       <created>1383387983026</created>
       <updated>1383387983026</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Upload an image now hidden when viewing a single image.">
+      <created>1383388222303</created>
+      <updated>1383388222303</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1032" y="-8" width="1040" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2929448" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -438,7 +402,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11796875" sideWeight="0.67070484" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16015625" sideWeight="0.7070552" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16015625" sideWeight="0.7070552" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -472,7 +436,8 @@
     <MESSAGE value="Gallery now functional. Uses a directory to fetch images instead of database." />
     <MESSAGE value="Fixed the table styles." />
     <MESSAGE value="CSS Maintainance" />
-    <option name="LAST_COMMIT_MESSAGE" value="CSS Maintainance" />
+    <MESSAGE value="Upload an image now hidden when viewing a single image." />
+    <option name="LAST_COMMIT_MESSAGE" value="Upload an image now hidden when viewing a single image." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -600,24 +565,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gallery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="12" selection-start="3520" selection-end="3520" vertical-scroll-proportion="0.94207835" vertical-offset="1096" max-vertical-offset="1802">
+        <state line="88" column="31" selection-start="3278" selection-end="3278" vertical-scroll-proportion="0.681431" vertical-offset="1096" max-vertical-offset="1802">
           <folding>
-            <element signature="e#2966#2990#0" expanded="true" />
-            <element signature="e#3100#3124#0" expanded="true" />
-            <marker date="1383388143787" expanded="true" signature="1448:1576" placeholder="..." />
-            <marker date="1383388143787" expanded="true" signature="1461:1576" placeholder="..." />
-            <marker date="1383388143787" expanded="true" signature="1461:1484" placeholder="..." />
-            <marker date="1383388143787" expanded="true" signature="1513:1576" placeholder="..." />
-            <marker date="1383388143787" expanded="true" signature="1840:1925" placeholder="..." />
-            <marker date="1383388143787" expanded="true" signature="1840:1860" placeholder="..." />
-            <marker date="1383388143787" expanded="true" signature="1870:1925" placeholder="..." />
-            <marker date="1383388143787" expanded="true" signature="2670:2693" placeholder="..." />
-            <marker date="1383388143787" expanded="true" signature="2769:3492" placeholder="..." />
-            <marker date="1383388143787" expanded="true" signature="2769:2816" placeholder="..." />
-            <marker date="1383388143787" expanded="true" signature="2769:2816" placeholder="..." />
-            <marker date="1383388143787" expanded="true" signature="2786:3478" placeholder="..." />
-            <marker date="1383388143787" expanded="true" signature="2786:2816" placeholder="..." />
-            <marker date="1383388143787" expanded="true" signature="2786:2816" placeholder="..." />
+            <element signature="e#2971#2995#0" expanded="true" />
+            <element signature="e#3105#3129#0" expanded="true" />
+            <marker date="1383388221634" expanded="true" signature="1448:1576" placeholder="..." />
+            <marker date="1383388221634" expanded="true" signature="1461:1576" placeholder="..." />
+            <marker date="1383388221634" expanded="true" signature="1461:1484" placeholder="..." />
+            <marker date="1383388221634" expanded="true" signature="1513:1576" placeholder="..." />
+            <marker date="1383388221634" expanded="true" signature="1840:1925" placeholder="..." />
+            <marker date="1383388221634" expanded="true" signature="1840:1860" placeholder="..." />
+            <marker date="1383388221634" expanded="true" signature="1870:1925" placeholder="..." />
+            <marker date="1383388221634" expanded="true" signature="2675:2698" placeholder="..." />
+            <marker date="1383388221634" expanded="true" signature="2774:3497" placeholder="..." />
+            <marker date="1383388221634" expanded="true" signature="2774:2821" placeholder="..." />
+            <marker date="1383388221634" expanded="true" signature="2774:2821" placeholder="..." />
+            <marker date="1383388221634" expanded="true" signature="2791:3483" placeholder="..." />
+            <marker date="1383388221634" expanded="true" signature="2791:2821" placeholder="..." />
+            <marker date="1383388221634" expanded="true" signature="2791:2821" placeholder="..." />
           </folding>
         </state>
       </provider>
